@@ -23,14 +23,13 @@ A compiled list of information regarding security principles and solutions
 
 ## REST, SOAP, GRPC etc.
 
-##File transfer (FTP etc)
+## File transfer (FTP etc)
 
 ##
 
 #HMI - Human to machine interaction
 
 #HHI - Human to human interaction
-
 
 # Runtime security
 ## Backend
