@@ -1,7 +1,7 @@
 # security-architecture
 Security architecture
 
-##Application security principles
+## Application security principles
 * Apply defense in depth
 * Use a positive security model (fail-safe defaults, minimize attack surface)
 * Fail securely
@@ -13,13 +13,15 @@ Security architecture
 * Don’t trust services
 * Establish secure defaults (psychological acceptability)
 
-#MMI - Machine to machine interaction
+## Secrets
 
-##DNS
+## Trust
 
-##Secrets
+# MMI - Machine to machine interaction
 
-##REST, SOAP, GRPC etc.
+## DNS
+
+## REST, SOAP, GRPC etc.
 
 ##File transfer (FTP etc)
 
@@ -30,9 +32,9 @@ Security architecture
 #HHI - Human to human interaction
 
 
-#Runtime security
-##Backend
-##Client
-###Browser
+# Runtime security
+## Backend
+## Client
+### Browser
 HTTP headers:
 https://www.keycdn.com/blog/http-security-headers
