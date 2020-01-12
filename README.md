@@ -1,5 +1,5 @@
 # Security architecture
-A compiled list of information regarding security principles and solutions
+A compiled list of information of security principles and solutions
 
 ## Application security principles
 * Apply defense in depth
