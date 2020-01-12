@@ -27,9 +27,9 @@ A compiled list of information regarding security principles and solutions
 
 ##
 
-#HMI - Human to machine interaction
+# HMI - Human to machine interaction
 
-#HHI - Human to human interaction
+# HHI - Human to human interaction
 
 # Runtime security
 ## Backend
