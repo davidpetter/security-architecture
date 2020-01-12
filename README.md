@@ -20,6 +20,9 @@ A compiled list of information of security principles and solutions
 # MMI - Machine to machine interaction
 
 ## DNS
+The DNS is responsible for the mapping between domain names and IP adresses.
+The domain name is the public identity of the server. That makes the DNS responsible 
+
 
 ## REST, SOAP, GRPC etc.
 
