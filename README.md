@@ -45,9 +45,13 @@ Types of Secrets
 
 # MMI - Machine to machine interaction
 
+
 ## DNS
+DNS is crucial/weak/important
+
 The DNS is responsible for the mapping between domain names and IP adresses.
-The domain name is the public identity of the server. That makes the DNS responsible 
+The domain name is the public identity of the server. 
+
 
 
 ## REST, SOAP, GRPC etc.
