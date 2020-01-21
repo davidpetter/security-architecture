@@ -1,6 +1,17 @@
 # Security architecture
 A compiled list of information of security principles and solutions
 
+## Cyber security
+### Information security
+* Confidentiality
+* Integrity
+* Availability
+
+### Privacy
+* Traceability
+* Linkability
+* Identifyability
+
 ## Application security principles
 * Apply defense in depth
 * Use a positive security model (fail-safe defaults, minimize attack surface)
@@ -16,6 +27,7 @@ A compiled list of information of security principles and solutions
 ## Secrets
 
 ## Trust
+
 
 # MMI - Machine to machine interaction
 
