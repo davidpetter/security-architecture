@@ -26,6 +26,20 @@ A compiled list of information of security principles and solutions
 
 ## Secrets
 
+Types of Secrets
+* Password (all forms plain, hash etc)
+* API-key
+* Session ID/key
+* Nonce
+* Symetric cipher keys  
+* Private cipher key
+* Key derivation material
+* Checksum hashes (potentially a secret)
+
+### Principles
+* High entropy - Long and random (few to no limitations on chars etc)
+* 
+
 ## Trust
 
 
