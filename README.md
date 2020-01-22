@@ -36,12 +36,19 @@ Types of Secrets
 * Key derivation material
 * Checksum hashes (potentially a secret)
 
-### Principles
-* High entropy - Long and random (few to no limitations on chars etc)
-* 
+Principles
+* High entropy - Prefer long and random over strict limitations
+* Keep secrets safe and seperate from other code or data
+* Have a short lifecycle
+* Don't rely on one kind of secrets for all your security
 
 ## Trust
-
+In the end security relies on trust. A solution will most likely have several different
+trust anchors such as:
+* Identity provider
+* CA in a PKI based solution.
+* Peer in web of trust.
+* Etc
 
 # MMI - Machine to machine interaction
 
