@@ -92,6 +92,7 @@ Best practice
 * Secure the DNS (with DNSsec etc)
 * Use forward secrecy
 * Use full certificate chains
+* Strong private key
 * Secure private key
 * Use a sufficient key
 
