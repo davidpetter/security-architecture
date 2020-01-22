@@ -36,6 +36,7 @@ Types of Secrets
 * Private cipher key
 * Key derivation material
 * Checksum hashes (potentially a secret)
+* Hash Pepper
 
 Principles
 * High entropy - Prefer long and random over strict limitations
@@ -60,12 +61,6 @@ Principles
 * Chain of trust should verifiable
 * Broken chains or chains that don't meet criteria should not be trusted
 
-## Basic mechanisms
-Shared tokens
-Symetric & Asymetric crypthography 
-Signatures and authentication codes
-Hashes and salts
-
 # MMI - Machine to machine interaction
 
 
@@ -75,6 +70,33 @@ DNS is crucial/weak/important
 The DNS is responsible for the mapping between domain names and IP adresses.
 The domain name is the public identity of the server. 
 
+Design
+* Use DNSsec for authenticating DNS records 
+* OverConsider haHave failover and zoning
+
+## TLS
+TLS is a protocol for channel security. 
+Correctly configured enables verification of the server via the domain name.
+
+Trust anchors
+* DNS 
+* CA (certificate authority).
+
+Weakness
+* Options, variants, versions and configurations
+
+Best practice
+* Always use TLS (almost always anyway)
+* Use secure protocols and ciphers
+* Use a public trusted CA
+* Secure the DNS (with DNSsec etc)
+* Use forward secrecy
+* Use full certificate chains
+* Secure private key
+* Use a sufficient key
+
+Links
+* https://github.com/ssllabs/research/wiki/SSL-and-TLS-Deployment-Best-Practices
 
 
 ## REST, SOAP, GRPC etc.
