@@ -29,8 +29,9 @@ A compiled list of information of security principles and solutions
 
 Types of Secrets
 * Password (all forms plain, hash etc)
-* API-key
-* Session ID/key
+* <Token 
+** API-key
+** Session ID/key
 * Nonce
 * Symetric cipher keys  
 * Private cipher key
