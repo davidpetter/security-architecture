@@ -29,9 +29,9 @@ A compiled list of information of security principles and solutions
 
 Types of Secrets
 * Password (all forms plain, hash etc)
-* <Token 
-** API-key
-** Session ID/key
+* Token 
+ * API-key
+ * Session ID/key
 * Nonce
 * Symetric cipher keys  
 * Private cipher key
@@ -95,7 +95,7 @@ Best practice
 * Use full certificate chains
 * Strong private key
 * Secure private key
-* Use a sufficient key
+* Disable insecure renegotiation
 
 Links
 * https://github.com/ssllabs/research/wiki/SSL-and-TLS-Deployment-Best-Practices
