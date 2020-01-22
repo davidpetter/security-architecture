@@ -1,5 +1,6 @@
-# Security architecture
+# Security architecture - Work in progress!
 A compiled list of information of security principles and solutions
+
 
 ## Cyber security
 ### Information security
@@ -48,7 +49,22 @@ trust anchors such as:
 * Identity provider
 * CA in a PKI based solution.
 * Peer in web of trust.
+* Identity card issuer
+* Co-worker at work
 * Etc
+
+Principles
+* There should be a determined set of trust anchors 
+* There should be a lowest level of acceptable trust
+* There should be a chain of trust from a trust anchor
+* Chain of trust should verifiable
+* Broken chains or chains that don't meet criteria should not be trusted
+
+## Basic mechanisms
+Shared tokens
+Symetric & Asymetric crypthography 
+Signatures and authentication codes
+Hashes and salts
 
 # MMI - Machine to machine interaction
 
