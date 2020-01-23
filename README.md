@@ -29,15 +29,10 @@ A compiled list of information of security principles and solutions
 
 Types of Secrets
 * Password (all forms plain, hash etc)
-* Token 
- * API-key
- * Session ID/key
-* Nonce
-* Symetric cipher keys  
-* Private cipher key
-* Key derivation material
-* Checksum hashes (potentially a secret)
-* Hash Pepper
+* Token (API-key, Session ID/key)
+* Keys (private cipher keys and derivation material)
+* Hashing pepper
+* Checksum (potentially a secret)
 
 Principles
 * High entropy - Prefer long and random over strict limitations
