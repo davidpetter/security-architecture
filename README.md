@@ -32,7 +32,7 @@ Types of Secrets
 * Token (API-key, Session ID/key)
 * Keys (private cipher keys and derivation material)
 * Hashing pepper
-* Checksum (potentially a secret)
+* Checksum and hashes (potentially a secret)
 
 Principles
 * High entropy - Prefer long and random over strict limitations
