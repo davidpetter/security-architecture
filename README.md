@@ -33,6 +33,7 @@ Types of Secrets
 * Keys (private cipher keys and derivation material)
 * Hashing pepper
 * Checksum and hashes (potentially a secret)
+* Secret data
 
 Principles
 * High entropy - Prefer long and random over strict limitations
