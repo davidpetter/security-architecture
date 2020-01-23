@@ -117,3 +117,8 @@ Links
 ### Browser
 HTTP headers:
 https://www.keycdn.com/blog/http-security-headers
+
+
+
+# Links
+[DevSecOps](http://devsecops.github.io/)
