@@ -4,14 +4,25 @@ A compiled list of information of security principles and solutions
 
 ## Cyber security
 ### Information security
-* Confidentiality
-* Integrity
-* Availability
+#### Confidentiality
+Guarding against improper information modification or destruction, and includes ensuring information nonrepudiation, accuracy, and authenticity.
+
+Access control & protection, encryption, monitoring and training.
+
+#### Integrity
+Preserving authorized restrictions on access and disclosure, including a means for protecting personal privacy and proprietary information.
+
+Encryption, signature, process control suchs as code testing, monitoring control sucn as file integrity and log analysis. Behavioral controls such a separation fo duties, rotation of duties and training.  
+
+#### Availability 
+Ensuring timely and reliable access to, and use of, information.
+
+Often due to failures or loss in functionality hardware failures; programming errors; human errors; injury, sickness, or death of key personnel; distributed denial of service (DDoS) attacks; and malicious code. We are more vulnerable to availability threats than to the other components of the CIA triad. We are certain to face some of them. Safeguards that address availability include access controls, monitoring, data redundancy, resilient systems, virtualization, server clustering, environmental controls, continuity of operations planning, and incident response preparedness.
 
 ### Privacy
-* Traceability
-* Linkability
-* Identifyability
+* Traceability - Ability to trace the object (information) from origin to destination
+* Linkability - Abilltiy to link to objects (information) going either from/to the same origin/destination.  
+* Identifyability - Ability to ident
 
 ## Application security principles
 * Apply defense in depth
