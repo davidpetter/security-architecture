@@ -61,6 +61,10 @@ trust anchors such as:
 * Co-worker at work
 * Etc
 
+### Segregation of duties
+The concept of having more than one person required to complete a task.
+In business the separation by sharing of more than one individual in one single task is an internal control intended to prevent fraud and error.
+
 Principles
 * There should be a determined set of trust anchors 
 * There should be a lowest level of acceptable trust
