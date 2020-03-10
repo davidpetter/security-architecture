@@ -21,7 +21,7 @@ Safeguards: access controls, monitoring, data and computational redundancy, resi
 ### Privacy
 * Traceability - Ability to trace the object (information) from origin to destination
 * Linkability - Abilltiy to link to objects (information) going either from/to the same origin/destination.  
-* Identifyability - Ability to ident
+* Identifyability - Ability to identify the origin of an object (information),. 
 
 ## Threat sources
 Information security is about blocking or reducing damage to confidentiality, integrity, and availability of information and systems.
@@ -82,7 +82,11 @@ Principles
 * Broken chains or chains that don't meet criteria should not be trusted
 
 # MMI - Machine to machine interaction
+Integration between different machines over a communication medium.
 
+Principles:
+* No trust - Don't trust the channel. Don't trust the transmitter. Don't trust the reciver.
+* Follow the rules of privacy and make sure that communication is traceable, linkable and identifiable.
 
 ## DNS
 DNS is crucial/weak/important
