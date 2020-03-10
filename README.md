@@ -92,7 +92,8 @@ The domain name is the public identity of the server.
 
 Design
 * Use DNSsec for authenticating DNS records 
-* OverConsider haHave failover and zoning
+* Consider HA over failiver
+* Have zoning and multiple topologies
 
 ## TLS
 TLS is a protocol for channel security. 
