@@ -23,6 +23,15 @@ Safeguards: access controls, monitoring, data and computational redundancy, resi
 * Linkability - Abilltiy to link to objects (information) going either from/to the same origin/destination.  
 * Identifyability - Ability to ident
 
+## Threat sources
+Information security is about blocking or reducing damage to confidentiality, integrity, and availability of information and systems.
+
+Damaged cause from one or more of the threat sources:
+* Hostile cyber or physical attacks
+* Human error
+* Structural failures of organization-controlled resources (e.g., hardware, software, environmental controls)  
+* Natural and man-made disasters, accidents, and failures beyond the control of the organization
+
 ## Application security principles
 * Apply defense in depth
 * Use a positive security model (fail-safe defaults, minimize attack surface)
