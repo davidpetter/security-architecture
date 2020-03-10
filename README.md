@@ -136,6 +136,23 @@ Links
 # HHI - Human to human interaction
 
 # Runtime security
+
+Principles
+* Keep information on a neeed to know basis.
+* Clear secrets and prevent them from being shared or visible.
+* State should be immutable.
+* State changes should be declarative.
+* Virtual machines should be avoided
+* Runtime should protect against overflows
+* Keep runtime up to date.
+* Avoid unnecessary logging. 
+* Mask or obfuscate sensitive information in logs.
+* Don't log secrets
+* Have health checks and metrics
+* Perform peer reviews
+
+
+
 ## Backend
 ## Client
 ### Browser
