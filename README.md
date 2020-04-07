@@ -2,7 +2,17 @@
 A compiled list of information of security principles and solutions
 
 ## Cyber security
+
+Security, risk and threat models
+* CIA
+* STRIDE
+* DREAD
+* PASTA
+* Trike
+* VAST
+
 ### Information security
+
 #### Confidentiality
 Guarding against improper information modification or destruction, and includes ensuring information nonrepudiation, accuracy, and authenticity.
 
